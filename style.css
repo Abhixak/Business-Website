@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+    background-color: rgb(30, 30, 30);
+    overflow-x: hidden;
+}
+header {
+  width: 100vw;
+  height: 150px;
+  background-color: black;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+}
+header .logo {
+  height: auto;
+  width: 150px;
+  position: absolute;
+  left: 5%;
+
+}
+header .slogan {
+  color: rgb(214, 214, 214);
+  display: inline;
+  position: absolute;
+  right: 8%;
+  text-shadow: 0px 0px 15px blue;
+  text-align: center;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 35px;
+  font-family: "Caveat Brush", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+nav{
+    background-color: #273db4;
+    margin-top: 5px;
+    width: 100vw;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    color: white;
+    font-family: "Caveat Brush", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+nav .navigation .list-container{
+    position: absolute;
+    left: 20px;
+}
+
+nav .navigation .right-nav{
+    position: absolute;
+    right: 220px;
+}
+
+nav .navigation span li{
+    display: inline;
+    list-style-type: none;
+    position: relative;
+    left: 100px;
+    margin-top: 0;
+    top: -10px;
+    margin-left:20px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.products{
+    position: relative;
+    top: 20px;
+    left:50px;
+    overflow:hidden;
+    height: 350px;
+    width: 250px;
+    border-radius: 10px;
+    border: 2px solid black;
+    background-color: hsl(0, 0%, 100%);
+}
+.products img{
+    width: 250px;
+    border-bottom: 2px solid black;
+}
+.products .prod-name,.products p{
+    margin: 5px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.products button{
+    background-color: orange;
+    font-family: "Caveat Brush", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    width: 80%;
+    height: 30px;
+    font-size: 20px;
+    position: relative;
+    text-align: center;
+    border-radius: 15px;
+    left: 25px;
+}
